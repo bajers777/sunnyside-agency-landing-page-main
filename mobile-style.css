@@ -1,0 +1,48 @@
+/* MOBILE SCREEN SETTINGS */
+@media (min-width: 375px) and (max-width: 1440px){
+    .hamburger-container{
+        display: flex;
+    }
+    .navbar-pills{
+        display: none;
+    }
+    .article {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .article-text{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .article-text-container{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    #services {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .order-2{
+        order: 0;
+    }
+    .service-text{
+        margin-top: 50%;
+    }
+    #feedback .wrapper{
+        flex-flow: column nowrap;
+        padding-bottom: 0;
+    }
+
+    #feedback .wrapper .card{
+        margin-bottom: 5rem;
+    }
+    #gallery .wrapper {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    #gallery .wrapper img {
+        width: 50%;
+    }
+}
+/* END OF MOBILE SCREEN SETTINGS */
