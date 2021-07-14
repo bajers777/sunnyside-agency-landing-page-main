@@ -23,6 +23,9 @@
         display: flex;
         flex-flow: column nowrap;
     }
+    .service-text{
+        margin-top: 5rem;
+    }
     .order-2{
         order: 0;
     }
