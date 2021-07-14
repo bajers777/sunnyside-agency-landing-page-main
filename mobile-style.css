@@ -30,7 +30,7 @@
         order: 0;
     }
     .service-text{
-        margin-top: 50%;
+        margin-bottom: 3rem;
     }
     #feedback .wrapper{
         flex-flow: column nowrap;
