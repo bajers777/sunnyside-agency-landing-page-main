@@ -260,7 +260,7 @@ a {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 30rem;
+    width: 100%;
 }
 
 #feedback .card img {
