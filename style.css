@@ -253,6 +253,7 @@ a {
     font-size: 1.5rem;
     padding-top: 5rem;
     color: hsl(210, 4%, 67%);
+    max-width: 375px;
 }
 
 #feedback .card {
@@ -260,7 +261,7 @@ a {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 30rem;
 }
 
 #feedback .card img {
