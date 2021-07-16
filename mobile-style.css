@@ -1,5 +1,8 @@
 /* MOBILE SCREEN SETTINGS */
 @media (min-width: 375px) and (max-width: 1440px){
+    html{
+        max-width: 375px;
+    }
     .hamburger-container{
         display: flex;
     }
@@ -36,9 +39,11 @@
         flex-flow: column nowrap;
         padding-bottom: 0;
     }
-
     #feedback .wrapper .card{
         margin-bottom: 5rem;
+    }
+    #feedback .card{
+        width: 100%;
     }
     #gallery .wrapper {
         display: flex;
