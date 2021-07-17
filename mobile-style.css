@@ -8,8 +8,56 @@
     .hamburger-container{
         display: flex;
     }
+    /* .navbar{
+        flex-flow: column nowrap;
+        position: absolute;
+        right: 3rem;
+        width: 60%;
+        max-width: 30rem;
+    } */
+    .hamburger-button{
+        display: block;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .triangle{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 2rem;
+        border-left: 1px solid transparent;
+        border-top: 3rem solid transparent;
+        border-bottom: 1px solid transparent;
+        border-right: 3rem solid #fff;      
+    }
     .navbar-pills{
-        display: none;
+        display: flex;
+        position: absolute;
+        right: 0;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+        padding: 3rem;
+        background-color: hsl(0, 0%, 100%);
+        list-style: none;
+    }
+    .navbar-pills li{
+        /* padding: 1rem; */
+    }
+    .navbar-pills li>a{
+        text-decoration: none;
+        color: hsl(232, 10%, 55%);
+    }
+    .navbar-pills li>a:hover{
+        background-color: hsl(51, 100%, 49%);
+        border-radius: 3rem;
+        padding: 1rem;
+        color: hsl(198, 62%, 26%);
+        text-transform: uppercase;
+        font-family: 'Fraunces', serif;
     }
     .article {
         display: flex;
