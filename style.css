@@ -66,7 +66,10 @@ a {
 .navbar-pills li {
     padding: 1rem;
 }
-
+.navbar-pills li>a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
 .navbar-pills li:hover {
     font-family: 'Fraunces', serif;
     color: hsl(0, 0%, 100%);
@@ -85,53 +88,13 @@ a {
     width: 60%;
     max-width: 30rem;
 }
-.hamburger-navbar-pills li:nth-child(2){
-    padding-top: 3rem;
+
+.hamburger-button{
+    display: none;
 }
-    .hamburger-navbar-pills li:last-child{
-        padding-bottom: 3rem;
-    }
-    .hamburger-button{
-        margin-left: auto;
-        margin-top: 2rem;
-    }
-    .triangle{
-        position: absolute;
-        top: 4rem;
-        right: 0;
-        width: 2rem;
-        border-left: 1px solid transparent;
-        border-top: 3rem solid transparent;
-        border-bottom: 1px solid transparent;
-        border-right: 3rem solid #fff;
-        
-    }
-    .hamburger-navbar-pills{
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 3rem;
-        padding: 0;
-        background-color: hsl(0, 0%, 100%);
-        list-style: none;
-    }
-    
-    .hamburger-navbar-pills li{
-        padding: 1rem;
-    }
-    .hamburger-navbar-pills li>a{
-        text-decoration: none;
-        color: hsl(232, 10%, 55%);
-    }
-    .hamburger-navbar-pills li>a:hover{
-        background-color: hsl(51, 100%, 49%);
-        border-radius: 3rem;
-        padding: 1rem;
-        color: hsl(198, 62%, 26%);
-        text-transform: uppercase;
-        font-family: 'Fraunces', serif;
-    }
+.triangle{
+    display: none;    
+}
 
 .article {
     display: flex;
