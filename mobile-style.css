@@ -19,11 +19,13 @@
         display: block;
         margin-left: auto;
         margin-top: 2rem;
+        background-color: transparent;
+        border: none;
     }
     .triangle{
         display: block;
         position: absolute;
-        top: 0;
+        top: -3rem;
         right: 0;
         z-index: 1;
         width: 2rem;
@@ -33,9 +35,11 @@
         border-right: 3rem solid #fff;      
     }
     .navbar-pills{
-        display: flex;
+        display: none;
         position: absolute;
+        width: 25%;
         right: 0;
+        top: 5rem;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
@@ -44,14 +48,17 @@
         background-color: hsl(0, 0%, 100%);
         list-style: none;
     }
+    .visible{
+        display: flex;
+    }
     .navbar-pills li{
-        /* padding: 1rem; */
+        padding: 1rem;
     }
     .navbar-pills li>a{
         text-decoration: none;
         color: hsl(232, 10%, 55%);
     }
-    .navbar-pills li>a:hover{
+    .navbar-pills li:hover{
         background-color: hsl(51, 100%, 49%);
         border-radius: 3rem;
         padding: 1rem;
