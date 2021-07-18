@@ -32,7 +32,7 @@ a {
     font-family: 'Barlow', sans-serif;
 }
 
-.header h1 {
+.header h2 {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     font-family: 'Fraunces', serif;
@@ -42,10 +42,7 @@ a {
 
 .header-text {
     text-align: center;
-}
-
-.header-text img {
-    transform: translate(0, 170%);
+    margin-top: 6rem;
 }
 
 .logo {
@@ -199,7 +196,12 @@ a {
     background-position: center;
     color: hsl(198, 62%, 26%);
 }
-
+#feedback {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
 #feedback .wrapper {
     display: flex;
     justify-content: center;
